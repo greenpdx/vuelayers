@@ -8,7 +8,7 @@
 
 <script>
   /** @module geoloc/geoloc */
-  import Geolocation from 'ol/geolocation'
+  import Geolocation from 'ol/Geolocation'
   import { Observable } from 'rxjs'
   import { merge } from 'rxjs/observable'
   import olCmp from '../../mixin/ol-cmp'

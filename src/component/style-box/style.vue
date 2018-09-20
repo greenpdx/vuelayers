@@ -6,7 +6,7 @@
    * @module style-box/style
    */
   import Vue from 'vue'
-  import Style from 'ol/style/style'
+  import Style from 'ol/style/Style'
   import style from '../../mixin/style'
   import withFillStrokeStyle from '../../mixin/with-fill-stroke-style'
   import mergeDescriptors from '../../util/multi-merge-descriptors'

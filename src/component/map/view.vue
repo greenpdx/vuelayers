@@ -8,7 +8,7 @@
   /**
    * @module map/view
    */
-  import View from 'ol/view'
+  import View from 'ol/View'
   import { Observable } from 'rxjs'
   import { merge as mergeObs } from 'rxjs/observable'
   import { distinctUntilKeyChanged, map as mapObs } from 'rxjs/operator'

@@ -1,4 +1,4 @@
-import Cluster from 'ol/source/cluster'
+import Cluster from 'ol/source/Cluster'
 import { Observable } from 'rxjs'
 import { interval } from 'rxjs/observable'
 import { first, map, skipWhile, toPromise } from 'rxjs/operator'

@@ -1,13 +1,14 @@
 import pointOnFeature from '@turf/point-on-feature'
-import GeometryCollection from 'ol/geom/geometrycollection'
-import LineString from 'ol/geom/linestring'
-import MultiLineString from 'ol/geom/multilinestring'
-import MultiPoint from 'ol/geom/multipoint'
-import MultiPolygon from 'ol/geom/multipolygon'
-import Point from 'ol/geom/point'
-import Polygon from 'ol/geom/polygon'
-import Circle from 'ol/geom/circle'
-import { GEOMETRY_TYPE, WGS84_SPHERE } from './consts'
+import GeometryCollection from 'ol/geom/GeometryCollection'
+import LineString from 'ol/geom/LineString'
+import MultiLineString from 'ol/geom/MultiLineString'
+import MultiPoint from 'ol/geom/MultiPoint'
+import MultiPolygon from 'ol/geom/MultiPolygon'
+import Point from 'ol/geom/Point'
+import Polygon from 'ol/geom/Polygon'
+import Circle from 'ol/geom/Circle'
+// import { GEOMETRY_TYPE, WGS84_SPHERE } from './consts'
+import { GEOMETRY_TYPE } from './consts'
 
 /**
  * @param {number|number[]} lonOrCoordinates
@@ -76,7 +77,8 @@ export function createGeomCollection (geoms) {
  * @return {ol.geom.Polygon}
  */
 export function createCircularPolygon (center, radius) {
-  return Polygon.circular(WGS84_SPHERE, center, radius)
+  // return Polygon.circular(WGS84_SPHERE, center, radius)
+  return Polygon.circular(center, radius)
 }
 
 /**

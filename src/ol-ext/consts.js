@@ -1,4 +1,4 @@
-import Sphere from 'ol/sphere'
+import * as Sphere from 'ol/sphere'
 
 export const EPSG_4326 = 'EPSG:4326'
 export const EPSG_3857 = 'EPSG:3857'
@@ -41,8 +41,8 @@ export const REPROJ_ERR_THRESHOLD = 0.5
 /**
  * @type {number} Earth radius in meters
  */
-export const EARTH_RADIUS = 6378137
-export const WGS84_SPHERE = new Sphere(EARTH_RADIUS)
+export const EARTH_RADIUS = Sphere.DEFAULT_RADIUS
+// ** export const WGS84_SPHERE = new Sphere(EARTH_RADIUS)
 
 export const RENDERER_TYPE = {
   CANVAS: 'canvas',

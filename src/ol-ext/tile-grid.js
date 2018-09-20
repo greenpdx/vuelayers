@@ -1,6 +1,6 @@
-import olsize from 'ol/size'
-import oltilegrid from 'ol/tilegrid'
-import TileGrid from 'ol/tilegrid/tilegrid'
+import * as olsize from 'ol/size'
+import * as oltilegrid from 'ol/tilegrid'
+import TileGrid from 'ol/tilegrid/TileGrid'
 import { EXTENT_CORNER, MAX_ZOOM, TILE_SIZE } from './consts'
 import { createExtentFromProjection, getExtentCorner, getExtentHeight, getExtentWidth } from './extent'
 

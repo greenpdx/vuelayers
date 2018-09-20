@@ -1,4 +1,4 @@
-import Layer from 'ol/layer/layer'
+import Layer from 'ol/layer/Layer'
 import Vue from 'vue'
 import { instanceOf } from '../util/assert'
 

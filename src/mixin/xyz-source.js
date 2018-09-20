@@ -1,4 +1,4 @@
-import XYZSource from 'ol/source/xyz'
+import XYZSource from 'ol/source/XYZ'
 import tileSource from './tile-source'
 
 const methods = {

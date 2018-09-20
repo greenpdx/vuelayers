@@ -1,4 +1,4 @@
-import loadingstrategy from 'ol/loadingstrategy'
+import * as loadingstrategy from 'ol/loadingstrategy'
 
 export const {
   all: loadingAll,

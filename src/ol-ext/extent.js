@@ -1,8 +1,8 @@
 /**
  * Extent extensions
  */
-import olextent from 'ol/extent'
-import olproj from 'ol/proj'
+import * as olextent from 'ol/extent'
+import * as olproj from 'ol/proj'
 import { EXTENT_CORNER, PROJ_UNIT } from './consts'
 
 export const {

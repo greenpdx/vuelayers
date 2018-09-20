@@ -2,8 +2,8 @@
   /**
    * @module wmts-source/source
    */
-  import WMTSSource from 'ol/source/wmts'
-  import WMTSTileGrid from 'ol/tilegrid/wmts'
+  import WMTSSource from 'ol/source/WMTS'
+  import WMTSTileGrid from 'ol/tilegrid/WMTS'
   import { range } from '../../util/minilo'
   import tileSource from '../../mixin/tile-source'
   import { WMTS_FORMAT, WMTS_REQUEST_ENCODING, WMTS_VERSION } from '../../ol-ext/consts'

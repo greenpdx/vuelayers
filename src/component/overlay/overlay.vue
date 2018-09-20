@@ -10,7 +10,7 @@
   /**
    * @module overlay/overlay
    */
-  import Overlay from 'ol/overlay'
+  import Overlay from 'ol/Overlay'
   import { Observable } from 'rxjs'
   import { merge as mergeObs } from 'rxjs/observable'
   import uuid from 'uuid/v4'

@@ -8,11 +8,11 @@
   /**
    * @module map/map
    */
-  import olcontrol from 'ol/control'
-  import VectorLayer from 'ol/layer/vector'
-  import Map from 'ol/map'
-  import View from 'ol/view'
-  import VectorSource from 'ol/source/vector'
+  import * as olcontrol from 'ol/control'
+  import VectorLayer from 'ol/layer/Vector'
+  import Map from 'ol/Map'
+  import View from 'ol/View'
+  import VectorSource from 'ol/source/Vector'
   import { Observable } from 'rxjs'
   import { merge as mergeObs } from 'rxjs/observable'
   import { distinctUntilChanged, map as mapObs, throttleTime } from 'rxjs/operator'

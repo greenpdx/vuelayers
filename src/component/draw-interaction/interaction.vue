@@ -1,7 +1,7 @@
 <script>
   /** @module draw-interaction/interaction */
-  import DrawInteraction from 'ol/interaction/draw'
-  import condition from 'ol/events/condition'
+  import DrawInteraction from 'ol/interaction/Draw'
+  import * as condition from 'ol/events/condition'
   import { Observable } from 'rxjs'
   import { merge as mergeObs } from 'rxjs/observable'
   import { map as mapObs } from 'rxjs/operator'

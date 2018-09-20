@@ -2,7 +2,7 @@
   /**
    * @module icon-style/style
    */
-  import Icon from 'ol/style/icon'
+  import Icon from 'ol/style/Icon'
   import imageStyle from '../../mixin/image-style'
   import { makeWatchers } from '../../util/vue-helpers'
 

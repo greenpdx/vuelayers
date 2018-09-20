@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import Interaction from 'ol/interaction/interaction'
+import Interaction from 'ol/interaction/Interaction'
 import {instanceOf} from '../util/assert'
 
 const methods = {

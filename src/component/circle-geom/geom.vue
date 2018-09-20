@@ -1,6 +1,6 @@
 <script>
   /** @module circle-geom/geom */
-  import Circle from 'ol/geom/circle'
+  import Circle from 'ol/geom/Circle'
   import geometry from '../../mixin/geometry'
   import { GEOMETRY_TYPE } from '../../ol-ext/consts'
   import { constant } from '../../util/minilo'

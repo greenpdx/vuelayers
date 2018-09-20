@@ -3,7 +3,7 @@
    * @module reg-shape-style/style
    */
   import Vue from 'vue'
-  import RegularShape from 'ol/style/regularshape'
+  import RegularShape from 'ol/style/RegularShape'
   import imageStyle from '../../mixin/image-style'
   import withFillStrokeStyle from '../../mixin/with-fill-stroke-style'
   import mergeDescriptors from '../../util/multi-merge-descriptors'

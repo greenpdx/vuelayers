@@ -2,7 +2,7 @@
   /**
    * @module vector-source/source
    */
-  import VectorSource from 'ol/source/vector'
+  import VectorSource from 'ol/source/Vector'
   import vectorSource from '../../mixin/vector-source'
   import { getFeatureId } from '../../ol-ext/feature'
   import { createGeoJsonFmt } from '../../ol-ext/format'

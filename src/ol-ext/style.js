@@ -1,14 +1,14 @@
 /**
  * Style helpers
  */
-import Circle from 'ol/style/circle'
-import Fill from 'ol/style/fill'
-import Icon from 'ol/style/icon'
-import ImageStyle from 'ol/style/image'
-import RegularShape from 'ol/style/regularshape'
-import Stroke from 'ol/style/stroke'
-import Style from 'ol/style/style'
-import Text from 'ol/style/text'
+import Circle from 'ol/style/Circle'
+import Fill from 'ol/style/Fill'
+import Icon from 'ol/style/Icon'
+import ImageStyle from 'ol/style/Image'
+import RegularShape from 'ol/style/RegularShape'
+import Stroke from 'ol/style/Stroke'
+import Style from 'ol/style/Style'
+import Text from 'ol/style/Text'
 import parseColor from 'parse-color'
 import { isFunction, isNumeric, lowerFirst, pick, reduce, upperFirst } from '../util/minilo'
 import { GEOMETRY_TYPE } from './consts'

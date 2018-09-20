@@ -3,7 +3,7 @@
    * @module circle-style/style
    */
   import Vue from 'vue'
-  import Circle from 'ol/style/circle'
+  import Circle from 'ol/style/Circle'
   import imageStyle from '../../mixin/image-style'
   import withFillStrokeStyle from '../../mixin/with-fill-stroke-style'
   import mergeDescriptors from '../../util/multi-merge-descriptors'

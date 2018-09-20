@@ -1,6 +1,6 @@
 <script>
   /** @module image-layer/layer */
-  import ImageLayer from 'ol/layer/image'
+  import ImageLayer from 'ol/layer/Image'
   import layer from '../../mixin/layer'
 
   /**

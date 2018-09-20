@@ -6,9 +6,9 @@
 
 <script>
   /** @module select-interaction/interaction */
-  import Feature from 'ol/feature'
-  import SelectInteraction from 'ol/interaction/select'
-  import condition from 'ol/events/condition'
+  import Feature from 'ol/Feature'
+  import SelectInteraction from 'ol/interaction/Select'
+  import * as condition from 'ol/events/condition'
   import Vue from 'vue'
   import interaction from '../../mixin/interaction'
   import stylesContainer from '../../mixin/styles-container'

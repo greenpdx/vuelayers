@@ -1,7 +1,7 @@
 <script>
   /** @module modify-interaction/interaction */
-  import ModifyInteraction from 'ol/interaction/modify'
-  import condition from 'ol/events/condition'
+  import ModifyInteraction from 'ol/interaction/Modify'
+  import * as condition from 'ol/events/condition'
   import observableFromOlEvent from '../../rx-ext/from-ol-event'
   import interaction from '../../mixin/interaction'
   import stylesContainer from '../../mixin/styles-container'

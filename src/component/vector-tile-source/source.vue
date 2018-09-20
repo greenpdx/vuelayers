@@ -1,5 +1,5 @@
 <script>
-  import VectorTileSource from 'ol/source/vectortile'
+  import VectorTileSource from 'ol/source/VectorTile'
   import { createMvtFmt } from '../../ol-ext/format'
   import tileSource from '../../mixin/tile-source'
 

@@ -1,4 +1,4 @@
-import Feature from 'ol/feature'
+import Feature from 'ol/Feature'
 import Vue from 'vue'
 import { initFeature } from '../ol-ext/feature'
 import { instanceOf } from '../util/assert'

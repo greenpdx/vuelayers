@@ -1,6 +1,6 @@
-import BaseGeoJSON from 'ol/format/geojson'
-import TopoJSON from 'ol/format/topojson'
-import MVT from 'ol/format/mvt'
+import GeoJSON from 'ol/format/GeoJSON'
+import TopoJSON from 'ol/format/TopoJSON'
+import MVT from 'ol/format/MVT'
 import { isEmpty } from '../util/minilo'
 import { EPSG_4326 } from './consts'
 import { createCircularPolygon } from './geom'
@@ -12,7 +12,7 @@ import { isCircle } from './util'
  * @return {ol.format.GeoJSON}
  */
 export function createGeoJsonFmt (options) {
-  return new GeoJSON(options)
+  return new GeoJSONObj(options)
 }
 
 /**
@@ -31,7 +31,7 @@ export function createMvtFmt (options) {
   return new MVT(options)
 }
 
-class GeoJSON extends BaseGeoJSON {
+class GeoJSONObj extends GeoJSON {
   writeGeometryObject (geometry, options) {
     if (isCircle(geometry)) {
       geometry = createCircularPolygon(

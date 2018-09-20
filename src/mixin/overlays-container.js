@@ -1,4 +1,4 @@
-import Overlay from 'ol/overlay'
+import Overlay from 'ol/Overlay'
 import Vue from 'vue'
 import { instanceOf } from '../util/assert'
 

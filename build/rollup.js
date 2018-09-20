@@ -6,7 +6,7 @@ const babel = require('rollup-plugin-babel')
 const cjs = require('rollup-plugin-commonjs')
 const nodeResolve = require('rollup-plugin-node-resolve')
 const replace = require('rollup-plugin-re')
-const vue = require('rollup-plugin-vue')
+const vue = require('rollup-plugin-vue').default
 const uglify = require('rollup-plugin-uglify')
 const sass = require('./rollup/sass')
 const notifier = require('node-notifier')
@@ -15,7 +15,7 @@ const utils = require('./utils')
 const config = require('./config')
 
 process.env.NODE_ENV = 'production'
-
+console.log(argv)
 const formats = argv.format
   ? argv.format.split(',').map(s => s.trim())
   : ['es', 'cjs', 'umd']
@@ -212,9 +212,6 @@ function makeBundle (options = {}) {
       defines: options.defines,
     }),
     vue({
-      compileTemplate: true,
-      htmlMinifier: { collapseBooleanAttributes: false },
-      sourceMap: true,
       scss: {
         sourceMapContents: true,
         includePaths: [
@@ -298,7 +295,7 @@ function makeBundle (options = {}) {
   const cssOutputPath = options.cssName
     ? path.join(options.outputPath, options.cssName) + '.css'
     : undefined
-
+  
   const spinner = ora(chalk.bold.blue(`making ${options.format} ${options.jsName} bundle...`)).start()
 
   // prepare rollup bundler
